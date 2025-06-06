@@ -1,0 +1,22 @@
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+}
+@media (max-width: 1023px) {
+  .container {
+    padding-inline: var(--container-padding-x);
+  }
+}
+
+:root {
+  --container-width: 1200px;
+  --container-padding-x: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

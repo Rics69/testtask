@@ -1,0 +1,15 @@
+.home{
+  margin: 55px 0;
+
+  &__title{
+    text-align: center;
+    font-size: 60px;
+  }
+}
+
+.reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
